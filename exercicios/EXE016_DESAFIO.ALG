@@ -8,7 +8,7 @@ Inicio
    Leia(QCD)
    Escreva("Informe a quantidade de anos que você é fumante: ")
    Leia(QAF)
-   RTVF <- (10*QCD)/(60*24)*(QAF*365)
+   RTVF <- ((10/1440)*QCD)*(QAF*365)
    RTVFI <- int(RTVF)
    Escreva("Levando em cosideração que a cada cigarro fumado são menos 10 minutos de vida, fumando",QCD," cigarros por dia durante",QAF," ano(s), você terá menos",RTVFI," dias de vida.")
 Fimalgoritmo
