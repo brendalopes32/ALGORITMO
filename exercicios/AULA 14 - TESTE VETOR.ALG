@@ -5,7 +5,7 @@ Var
    C: Inteiro
 Inicio
    Para C <- 1 ate 6 faca
-      Escreva("Digite o", C," ° valor: ")
+      Escreva("Digite o", C,"° valor: ")
       Leia(V[C])
    FimPara
    
